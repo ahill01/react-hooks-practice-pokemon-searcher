@@ -14,7 +14,7 @@ console.log(filteredPokemon)
     <Container>
       <h1>Pokemon Searcher</h1>
       <br />
-      <PokemonForm setPokemonArr={setPokemonArr}/>
+      <PokemonForm pokemonArr={pokemonArr} setPokemonArr={setPokemonArr}/>
       <br />
       <Search search={search} setSearch={setSearch}/>
       <br />
